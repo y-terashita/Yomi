@@ -17,6 +17,7 @@ body{
     border: solid 3px #ff5b00;/*線*/
     border-radius: 10px;/*角の丸み*/
 }
+
 .box1 p {
     margin: 0; 
     padding: 0;
