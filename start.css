@@ -12,14 +12,10 @@ body{
     margin: 2em 3em;
     font-weight: bold;
     color: #ff5b00;/*文字色*/
+    text-align:center;
     background: #FFF;
     border: solid 3px #ff5b00;/*線*/
     border-radius: 10px;/*角の丸み*/
-}
-.box1 p {
-    margin: 0; 
-    padding: 0;
-    text-align:center;
 }
 
 .box1:hover {
