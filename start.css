@@ -21,3 +21,7 @@ body{
     padding: 0;
     text-align:center;
 }
+
+.box1:hover {
+    background-color :rgb(255, 217, 146);
+}
