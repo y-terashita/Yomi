@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
 .class1 {
     text-align: center;
     margin: 20px;
@@ -16,4 +20,8 @@
     margin: 0; 
     padding: 0;
     text-align:center;
+}
+
+.box1:hover {
+    background-color :rgb(255, 217, 146);
 }
