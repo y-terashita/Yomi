@@ -8,14 +8,24 @@ li {
   padding: 20px 40px;
 }
 
-.header {
-    background-color: #fff;
-    color: #000000;
-    height: 90px;
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(252, 252, 252, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .header-list li {
+    font-family: 'Noto Sans JP', sans-serif;
+    float: right;
+    padding: 18px 40px;
   }
 
-  .header-list li {
-      font-family: 'Noto Sans JP', sans-serif;
-    float: left;
-    padding: 33px 20px;
-  }
+  a {
+    display: block;
+    height: 136px;
+    background-image:url(); /*明度とか大きさとかいじるならこの辺りで(ぇ */
+    background-position: center;
+    background-size: cover;
+}
