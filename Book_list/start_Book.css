@@ -1,3 +1,7 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
 li {
     list-style: none;
   }
@@ -17,7 +21,6 @@ header {
     z-index: 10;
   }
   .header-list li {
-    font-family: 'Noto Sans JP', sans-serif;
     float: right;
     padding: 18px 40px;
   }
