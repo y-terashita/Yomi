@@ -13,7 +13,7 @@ body{
 /* ナビゲーション */
 nav{
     height: 10vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
 }
 
 .link{
@@ -63,7 +63,7 @@ nav{
         width: 100%;
         flex-direction: column;
         clip-path: circle(100px at 90% -10%);
-        -webkit-clip-path: circle(100px at 90% -30%);
+        -webkit-clip-path: circle(100px at 90% -10%);
         transition: all 1s ease-in-out;
     }
     /*　後でjsで使うためのクラス　*/
