@@ -78,3 +78,31 @@ nav{
         -webkit-clip-path: circle(1100px at 90% -10%);
     }
 }
+
+.body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.circle {	
+    position: fixed;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #ff0000;
+    bottom: 10vh;
+    right: 5vw;
+}
+  
+.circle span {
+    color: white;
+    font-weight: 1000;
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width :80px;
+    text-align:center;
+}
