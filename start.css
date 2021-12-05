@@ -79,10 +79,6 @@ nav{
     }
 }
 
-.body{
-    font-family: 'Noto Sans JP', sans-serif;
-}
-
 .circle {	
     position: fixed;
     display: inline-block;
@@ -95,8 +91,9 @@ nav{
 }
   
 .circle span {
+    font-family: 'Noto Sans JP', sans-serif;
     color: white;
-    font-weight: 900;
+    font-weight: 700;
     position: absolute;
     display: inline-block;
     left: 0;
