@@ -76,10 +76,20 @@ nav{
         -webkit-clip-path: circle(100px at 90% -10%);
         transition: all 1s ease-in-out;
     }
+
+    .link li :hover{
+        color: #ff5b00;
+    }
+
+
     /*　後でjsで使うためのクラス　*/
     .open{
         clip-path: circle(1100px at 90% -10%);
         -webkit-clip-path: circle(1100px at 90% -10%);
+    }
+
+    .link2 li{
+        font-size: 12px;
     }
 }
 
@@ -121,6 +131,10 @@ footer {
 .link2 li {
     display: inline;
     font-weight: 400;
+}
+
+.link2 li :hover{
+    color: #ff5b00;
 }
 
 .link2 li a{
