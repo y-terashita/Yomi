@@ -10,6 +10,10 @@ html{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+h3{
+    text-shadow: 1px 2px 3px #ffffff; 
+}
+
 h4{
     font-weight: 500;
 }
@@ -145,4 +149,25 @@ footer {
 .link2 li a{
     text-decoration: none;
     color: rgb(68, 68, 68);
+}
+
+body{
+    width: 100%;
+    height: 200px;
+    background: url(../whitehole/image/book1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo img{
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 480px;
+    left: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    margin: auto;
 }
